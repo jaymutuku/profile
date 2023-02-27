@@ -50,6 +50,6 @@ $ npm run deploy
 
 ### Step 8: Check your site is running and changes were effected
 
-`https://jaymutuku.github.io`
+`https://jaymutuku.github.io/profile`
 
 Clear browser cache if you don't see changes
