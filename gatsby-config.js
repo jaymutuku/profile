@@ -1,7 +1,7 @@
 //require('dotenv').config();
 
 module.exports = {
-    siteUrl: `${process.env.SITE_URL || "https://jaymutuku.github.io/profile/"}`,
+    // siteUrl: `${process.env.SITE_URL || "https://jaymutuku.github.io/profile/"}`,
     pathPrefix: `${process.env.PATH_PREFIX || "/profile"}`,
     siteMetadata: {
     title: `  `,
