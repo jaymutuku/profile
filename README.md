@@ -1,9 +1,8 @@
 ### Blog
 
+### Clone repository and install dependencies
 
-### Clone repository and install  dependencies
-
-`git clone  git@github.com:jaymutuku/profile.git`
+`git clone git@github.com:jaymutuku/profile.git`
 
 Navigate to the repo `cd <repo>`
 
@@ -42,7 +41,6 @@ $ npm run serve
 `http://localhost:9000`
 
 ### Deploy to Github Pages
-
 
 ```
 $ npm run deploy

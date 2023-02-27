@@ -1,10 +1,9 @@
-
 module.exports = {
-    pathPrefix: `/profile`,
-    siteMetadata: {
+  pathPrefix: `/profile`,
+  siteMetadata: {
     title: `  `,
     description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
-      author: `Josphat Mutuku`
+    author: `Josphat Mutuku`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
