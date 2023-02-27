@@ -1,9 +1,19 @@
+//require('dotenv').config();
+
 module.exports = {
-  pathPrefix: "/profile",
+    siteUrl: `${process.env.SITE_URL || "https://jaymutuku.github.io/profile/"}`,
+    pathPrefix: `${process.env.PATH_PREFIX || "/profile"}`,
     siteMetadata: {
     title: `  `,
     description: `Gatsby Markdown Personal Website Starter, using Styled Components, Tailwindcss and Framer Motion.`,
-    author: `Josphat Mutuku`,
+      author: `Josphat Mutuku`,
+      plugins: [
+        {
+          options: {
+          start_url: `${process.env.PATH_PREFIX || "/profile"}`
+        }
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -49,8 +59,8 @@ module.exports = {
       options: {
         name: `Josphat Mutuku Online Profile`,
         short_name: `josphat`,
-        start_url: `/profile/`,
-        // https://github.com/gatsbyjs/gatsby/issues/4966#issuecomment-381451744
+        // start_url: `/profile/`,
+        // https://github.com/gatsbyjs/gatsby/issues/4966#issuecomment-713181191
         //start_url: `/',
         // start_url: `/profile/',
         background_color: `#ed64a6`,
