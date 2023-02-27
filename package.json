@@ -55,9 +55,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "develop": "gatsby develop",
     "start": "npm run develop --openssl-legacy-provider",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
-    "deploy": "npm run build --prefix-paths && gh-pages -d public -b main",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b main",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },

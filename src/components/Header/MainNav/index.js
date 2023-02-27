@@ -5,7 +5,7 @@ import * as Styled from "./styles";
 const mainNavItems = [
   {
     title: "About Me",
-    slug: "https://jaymutuku.github.io/profile",
+    slug: "/",
   },
   {
     title: "Resume",
