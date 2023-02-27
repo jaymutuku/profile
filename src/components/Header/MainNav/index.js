@@ -5,15 +5,15 @@ import * as Styled from "./styles";
 const mainNavItems = [
   {
     title: "About Me",
-    slug: "/profile",
+    slug: ".",
   },
   {
     title: "Resume",
-    slug: "/profile/resume/",
+    slug: "./resume/",
   },
   {
     title: "Contact Me",
-    slug: "/profile/contact/",
+    slug: "./contact/",
   },
 ];
 
