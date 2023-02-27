@@ -49,10 +49,10 @@ module.exports = {
       options: {
         name: `Josphat Mutuku Online Profile`,
         short_name: `josphat`,
-        start_url: `/profile/`,
+        // start_url: `/profile/`,
         // https://github.com/gatsbyjs/gatsby/issues/4966
         //start_url: `/',
-        // start_url: `.`,
+        start_url: `.`,
         background_color: `#ed64a6`,
         theme_color: `#ed64a6`,
         display: `minimal-ui`,
